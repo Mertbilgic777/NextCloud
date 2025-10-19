@@ -20,7 +20,7 @@ Projenin temel amacı, farklı cihazlar (masaüstü, dizüstü bilgisayar, telef
 ### 3.1. Oracle Cloud (OCI) Sanal Makine Kurulumu
 
 Projenin temeli, OCI'ın "Her Zaman Ücretsiz" (Always Free) katmanı kullanılarak oluşturulan bir sanal makine (VM) üzerine kurulmuştur. Kurulum sırasında aşağıdaki özelliklere sahip bir instance tercih edilmiştir:
-* **Shape:** `VM.Standard.E2.1.Micro` veya `VM.Standard.A1.Flex`
+* **Shape:** `VM.Standard.E2.1.Micro`
 * **Image:** Ubuntu 22.04
 * **Ağ:** Gerekli VCN (Sanal Bulut Ağı) ve Public Subnet oluşturuldu.
 * **Erişim:** SSH anahtar tabanlı (key-based) güvenli erişim sağlandı.
